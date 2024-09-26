@@ -1,0 +1,28 @@
+/* App.css */
+
+/* You can add any custom styles here that aren't covered by Tailwind */
+
+/* Example of a custom class */
+.custom-button {
+  @apply px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors;
+}
+
+/* Example of a style that might be difficult to achieve with Tailwind alone */
+.gradient-text {
+  background: linear-gradient(90deg, #ff0000, #00ff00, #0000ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* You can also override Tailwind classes here if needed */
+.override-tailwind {
+  @apply text-lg !important;
+}
+
+/* If you need any global styles, you can add them here */
+body {
+  @apply antialiased;
+}
+
+/* Add any additional custom styles below */
